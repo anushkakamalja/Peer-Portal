@@ -1,3 +1,8 @@
+# Peer Portal
+
+This is a chatting website for peers where they can discuss about their common educational and other interests.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

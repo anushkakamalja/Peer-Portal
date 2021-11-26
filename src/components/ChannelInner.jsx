@@ -74,10 +74,9 @@ const TeamChannelHeader = ({ setIsEditing }) => {
               <p className="team-channel-header__name user">
                 {user.fullName || user.id}
               </p>
-            </div>,
-            console.log("img",user.image,user.fullName)
+            </div>
           ))}
-            
+
           {additionalMembers > 0 && (
             <p className="team-channel-header__name user">
               and {additionalMembers} more

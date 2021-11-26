@@ -69,7 +69,6 @@ const UserList = ({ setSelectedUsers }) => {
       setLoading(false);
     };
     if (client) getUsers();
-    console.log("users", users);
   }, []);
 
   if (error) {
@@ -88,9 +87,7 @@ const UserList = ({ setSelectedUsers }) => {
     return (
       <ListContainer>
         <div>
-          <div className="user-list__message">
-            No users found.
-          </div>
+          <div className="user-list__message">No users found.</div>
         </div>
       </ListContainer>
     );

@@ -152,7 +152,7 @@ const Auth = () => {
         </div>
       </div>
       <div className="auth__form-container_image">
-        <img src={signinImage} alt="Sign In Image" />
+        <img src={signinImage} alt="Sign In" />
       </div>
     </div>
   );
